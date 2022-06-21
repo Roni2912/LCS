@@ -1,6 +1,6 @@
 import numpy as np
 class LCM(object):
-    def _init_(self, RowString,ColumnString):
+    def __init__(self, RowString,ColumnString):
         self.RowString = RowString
         self.ColumnString = ColumnString
  
